@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+div {
+  display: block;
+}
+
+* {
+  line-height: 1.4em;
+}
+
+button  {
+  font-size: 100%;
+  margin: 0;
+   vertical-align: baseline;
+    border: 1px solid #d2c9c9;
+    border-radius: 3px;
+  box-shadow: inset 0 1px 0 0 #fff;
+font-weight: bold;
+  background-color: #f1f1f1;
+padding: 1em 2em 1em 2em;
+}
+
+h2, h3 {
+  color: #646464;
+  font: normal 1.2em/1.2em "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  -webkit-font-smoothing: antialiased;
+text-transform: initial
+}
+
+coding{
+  background: #eee;
+   padding-left: 4em;
+}
+table th {
+background: #eee;
+  padding: 5em;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: inherit;
+  border: 6px solid #eee; 
+  font-size: 14px;
+ padding-top: 1em;
+padding-bottom: 0.5em;
+}
+table td{
+  text-align: center;
+}
+
+table{
+font-size: 14px;
+ padding-top: 2em;
+}
+
+ul{
+padding: 0 0 0 1em;
+  margin: 1em 0;
+}
+
+
+
